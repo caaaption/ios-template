@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-  name: "ios-template",
-  platforms: [.iOS(.v16)],
-  products: [
-    .library(name: "HalloWorld", targets: ["HalloWorld"]),
-  ],
-  targets: [
-    .target(name: "HalloWorld"),
-    .testTarget(
-      name: "HalloWorldTests",
-      dependencies: [
-        "HalloWorld",
-      ]
-    )
-  ]
+    name: "ios-template",
+    platforms: [.iOS(.v16)],
+    products: [
+        .library(name: "HalloWorld", targets: ["HalloWorld"]),
+    ],
+    targets: [
+        .target(name: "HalloWorld"),
+        .testTarget(
+            name: "HalloWorldTests",
+            dependencies: [
+                "HalloWorld",
+            ]
+        ),
+    ]
 )
