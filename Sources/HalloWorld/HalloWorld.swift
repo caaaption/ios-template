@@ -1,5 +1,5 @@
 import Foundation
 
-public struct HalloWorld {
-  public static let speak = "HalloWorld"
+public enum HalloWorld {
+    public static let speak = "HalloWorld"
 }
