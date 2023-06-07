@@ -16,6 +16,6 @@ let package = Package(
       dependencies: [
         "HalloWorld",
       ]
-    )
+    ),
   ]
 )
